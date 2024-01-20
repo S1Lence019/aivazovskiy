@@ -1,0 +1,64 @@
+.about {
+  padding: 57px 30px 98px;
+  background-color: var(--bg-secondary);
+  text-align: center;
+  color: var(--font-main-color);
+}
+
+.about-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 42px;
+}
+
+.about-subtitle-ru,
+.about-description-ru,
+.about-subtitle-en,
+.about-decription-en {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.about-subtitle-ru {
+  margin-bottom: 11px;
+}
+
+.about-description-ru {
+  margin-bottom: 15px;
+}
+
+.about-subtitle-en {
+  margin: 17px auto 8px;
+}
+
+.about-decription-en,
+.about-description-ru {
+  text-align: justify;
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 50px 30px 62px;
+  }
+
+  .about-subtitle-ru,
+  .about-description-ru,
+  .about-subtitle-en,
+  .about-decription-en {
+    font-size: 14px;
+  }
+
+  .about-subtitle-ru {
+    margin-bottom: 15px;
+  }
+
+  .about-description-ru {
+    margin-bottom: 19px;
+  }
+
+  .about-subtitle-en {
+    margin: 29px auto 15px;
+  }
+}
