@@ -13,6 +13,7 @@
 .portfolio-picture {
   margin: 95px 0 40px;
   width: min(950px, 100%);
+  height: min(630px, 100%);
   object-fit: contain;
 }
 
